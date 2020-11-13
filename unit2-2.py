@@ -1,4 +1,4 @@
-elements = input('Введите элементы списка через пробел').split()
+elements = input('Введите элементы списка через пробел: ').split()
 i = 0
 for el in range(len(elements) // 2):
     el1 = elements[i]
