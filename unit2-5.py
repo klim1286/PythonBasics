@@ -7,7 +7,7 @@ while True:
         user = int(user)
         list_count = my_list.count(user)
         if list_count > 0:
-            my_list.insert(my_list.index(user)+list_count,user)
+            my_list.insert(my_list.index(user) + list_count, user)
             print(my_list)
         else:
             n = 0
