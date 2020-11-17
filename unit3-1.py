@@ -1,7 +1,8 @@
-def split(a1,a2):
-    sp = a1 / a2
+def split(x, y):
+    sp = x / y
     sp = round(sp, 5)
     return sp
+
 
 while True:
     try:
@@ -13,5 +14,5 @@ while True:
         print('На ноль делить нельзя!')
         continue
     except ValueError:
-            print('Невозможно преобразовать строку в число!')
-            continue
+        print('Невозможно преобразовать строку в число!')
+        continue

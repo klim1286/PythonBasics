@@ -10,4 +10,4 @@ city_in = input('Введите город проживания: ')
 email_in = input('Введите email: ')
 phone_in = input('Введите телефон: ')
 
-person(name=name_in,lname=lname_in, byear=byear_in, city=city_in, email=email_in,phone=phone_in)
+person(name=name_in, lname=lname_in, byear=byear_in, city=city_in, email=email_in, phone=phone_in)
